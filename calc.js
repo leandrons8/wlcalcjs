@@ -12,7 +12,7 @@ function addAnilhas(){
         lbs = 10*(cor+1) + 5
         kgs = lbs/2.2046
     }
-    row.insertCell(0).innerHTML = cor
+    row.insertCell(0).innerHTML = document.getElementById("cor").options[cor].innerHTML
     row.insertCell(1).innerHTML = ((padraoKgs) ? "Kgs" : "Lbs")
     row.insertCell(2).innerHTML = kgs
     row.insertCell(3).innerHTML = lbs
