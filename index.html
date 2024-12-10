@@ -11,35 +11,33 @@
     <div class="container">
       <h1 id="total">Peso total da barra: kgs | lbs</h1>
       <h2>Barra olímpica</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-auto">
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="barraSexo" id="masculina" onclick="updateSoma()" checked>
-              <label class="form-check-label" for="flexRadioDefault1">
-                Masculina
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="barraSexo" id="feminina" onclick="updateSoma()">
-              <label class="form-check-label" for="flexRadioDefault2">
-                Feminina
-              </label>
-            </div>
+      <div class="row">
+        <div class="col-auto">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="barraSexo" id="masculina" onclick="updateSoma()" checked>
+            <label class="form-check-label" for="flexRadioDefault1">
+              Masculina
+            </label>
           </div>
-          <div class="col-auto">
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="barraPadrao" id="barraKgs" onclick="updateSoma()" checked>
-              <label class="form-check-label" for="flexRadioDefault1">
-                Kgs
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="barraPadrao" id="barraLbs" onclick="updateSoma()">
-              <label class="form-check-label" for="flexRadioDefault2">
-                Lbs
-              </label>
-            </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="barraSexo" id="feminina" onclick="updateSoma()">
+            <label class="form-check-label" for="flexRadioDefault2">
+              Feminina
+            </label>
+          </div>
+        </div>
+        <div class="col-auto">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="barraPadrao" id="barraKgs" onclick="updateSoma()" checked>
+            <label class="form-check-label" for="flexRadioDefault1">
+              Kgs
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="barraPadrao" id="barraLbs" onclick="updateSoma()">
+            <label class="form-check-label" for="flexRadioDefault2">
+              Lbs
+            </label>
           </div>
         </div>
       </div>
@@ -47,11 +45,11 @@
       <div class="row">
         <div class="col-auto">
           <select class="form-select" id="cor">
-            <option value="0" selected>Pretas</option>
-            <option value="1">Verdes</option>
-            <option value="2">Amarelas</option>
-            <option value="3">Azuis</option>
-            <option value="4">Vermelhas</option>
+            <option value="0" class="bg-dark">Pretas</option>
+            <option value="1" class="bg-success">Verdes</option>
+            <option value="2" class="bg-warning">Amarelas</option>
+            <option value="3" class="bg-primary">Azuis</option>
+            <option value="4" class="bg-danger">Vermelhas</option>
           </select>
         </div>
         <div class="col-auto">
