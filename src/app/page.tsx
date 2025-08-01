@@ -1,7 +1,5 @@
 'use client'
 
-import Image from "next/image";
-import styles from "./page.module.css";
 import { Button, CloseButton, Col, Container, FormCheck, FormSelect, Row, Table } from "react-bootstrap";
 import RootLayout from "./layout";
 import { useState } from "react";
